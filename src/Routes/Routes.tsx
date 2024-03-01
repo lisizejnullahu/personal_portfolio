@@ -1,17 +1,7 @@
 import { BrowserRouter } from 'react-router-dom'
 import React from 'react'
-import {
-  About,
-  Contact,
-  Experience,
-  Feedbacks,
-  Hero,
-  Navbar,
-  Tech,
-  Works,
-  StarsCanvas,
-} from './components'
-
+import Navbar from '../components/Navbar/Navbar'
+import Hero from '../components/Hero/Hero'
 const Routes = () => {
   return (
     <BrowserRouter>
@@ -19,7 +9,7 @@ const Routes = () => {
         <div className='bg-hero-pattern bg-cover bg-no-repeat bg-center'>
           <Navbar />
           <Hero />
-        </div>
+        {/* </div>
         <About />
         <Experience />
         <Tech />
@@ -28,7 +18,7 @@ const Routes = () => {
         <div className='relative z-0'>
           <Contact />
           <StarsCanvas />
-        </div>
+        </div> */}
       </div>
     </BrowserRouter>
   )
