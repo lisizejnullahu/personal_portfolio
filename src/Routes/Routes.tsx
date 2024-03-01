@@ -1,7 +1,8 @@
-import { BrowserRouter } from 'react-router-dom'
-import React from 'react'
-import Navbar from '../components/Navbar/Navbar'
-import Hero from '../components/Hero/Hero'
+import { BrowserRouter } from 'react-router-dom';
+import React from 'react';
+import Navbar from '../components/Navbar/Navbar';
+import Hero from '../components/Hero/Hero';
+
 const Routes = () => {
   return (
     <BrowserRouter>
@@ -9,8 +10,8 @@ const Routes = () => {
         <div className='bg-hero-pattern bg-cover bg-no-repeat bg-center'>
           <Navbar />
           <Hero />
-        {/* </div>
-        <About />
+        </div>
+        {/* <About />
         <Experience />
         <Tech />
         <Works />
@@ -21,7 +22,7 @@ const Routes = () => {
         </div> */}
       </div>
     </BrowserRouter>
-  )
-}
+  );
+};
 
-export default Routes
+export default Routes;
